@@ -3,6 +3,20 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import firebase from 'firebase/app';
+
+var firebaseConfig = {
+  apiKey: "AIzaSyBNDW84HtQMSu3KqqlRJkAHiOgnX3DkxE0",
+  authDomain: "aneka-site.firebaseapp.com",
+  projectId: "aneka-site",
+  storageBucket: "aneka-site.appspot.com",
+  messagingSenderId: "935094023120",
+  appId: "1:935094023120:web:7ac7ba8a38d1c20d023fd5",
+  measurementId: "G-KHS912S44R"
+};
+
+// Initialize Firebase
+firebase.initializeApp(firebaseConfig);
 
 ReactDOM.render(
   <React.StrictMode>
