@@ -7,8 +7,8 @@ const Navbar = () => {
             {/* Link is a react component (<Link to=..>) vs regular html anchor tag (<a href=..></a>) which talks to server & takes more time */}
             
             <Link to="/">Home</Link>
-            <Link to="/about_me">About</Link> 
             <Link to="/projects">Projects</Link>
+            <Link to="/about_me">Contact</Link> 
         </nav>
     );
 }

@@ -3,7 +3,6 @@
 * {
   margin: 0;
   font-family: "Noto Sans KR";
-  color: #333;
 }
 
 .navbar {
@@ -16,7 +15,7 @@
 }
 
 .navbar h1 {
-  color: #1717B4;
+  color: #181E27;
 }
 
 .navbar .links {
@@ -24,12 +23,14 @@
 }
 
 .navbar a {
+  color: #333;
   margin-left: 16px;
   text-decoration: none;
   padding: 6px;
 }
+
 .navbar a:hover {
-  color: #1717B4;
+  color: #181E27;
 }
 
 .content {
@@ -37,26 +38,64 @@
   margin: 40px auto;
 }
 
-
-/* .video {
-  object-fit: cover;
-  width: 100vw;
-  height: 100vh;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: -1;
-  padding: none;
-} */
-
 .home-lower {
   margin-top: 380px;
   max-width: 100%;
-  height: 1000px;
+  max-height: 800px;
   background-color: #181E27;
+  padding-bottom: 80px;
+}
+
+.home-lower content {
+  align-items: center;
+  color: white;
+}
+
+.home-lower p {
+  color: white;
+  max-width: 1200px;
+  padding-top: 80px;
+  padding-bottom: 40px; 
+  font-size: larger;
+  line-height: 2.5;
+  text-align: center;
+}
+
+.contact {
+  background-color: rgba(91, 91, 91, 0.384);
+  padding: 40px;
+  max-width: 100%;
+  max-height: 200px;
   margin-bottom: 0;
+}
+
+.contact p {
+  text-align: center;
+  font-size: small;
+}
+
+/* .home-lower button {
+  background: #7b95bfba;
+  font-size: x-large;
+  color: #fff;
+  border: 0;
+  padding: 20px;
+  border-radius: 3px;
+  cursor: pointer;
+  display: inline-flex;
+  margin: 10%;
+} */
+
+.button-row {
+  margin: 0 auto; 
+  width: 656px; 
+  text-align: center
+}
+
+.divider {
+  width: 50px;
+  height:auto;
+  display:inline-block;
 }
 
 /* blog previews / list */
@@ -82,18 +121,43 @@
 }
 
 .about-me p {
-  padding: 50px;
+  padding-top: 75px;
+  padding-right: 100px;
   font-size: large;
   line-height: 2;
 }
 
+.about-me br {
+  height: 20px;
+}
+
 .about-me button {
-  background: #1717B4;
+  background: #181E27;
   color: #fff;
   border: 0;
   padding: 8px;
   border-radius: 8px;
   cursor: pointer;
+}
+
+.projects p {
+  color: #181E27;
+  max-width: 1200px;
+  padding-top: 0;
+  padding-bottom: 290px; 
+  font-size: x-large;
+  line-height: 2.5;
+  text-align: center;
+}
+
+.project-card p {
+  color: #181E27;
+  max-width: auto;
+  padding-top: 5px;
+  padding-bottom: 0; 
+  font-size: medium;
+  line-height: 1.5;
+  text-align: left;
 }
 
 /* blog details page */
